@@ -7,4 +7,4 @@
 3. On this branch, amend the index.html file to include a new sentence (anything) under "Running on Python"
 4. Run the command `python python-server.py` to ensure it works
 5. Merge the feature into master
-6. Repeat step 5
+6. Delete your feature branch
