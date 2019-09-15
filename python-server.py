@@ -1,7 +1,7 @@
 import http.server
 import socketserver
 
-PORT = 9000
+PORT = 80
 Handler = http.server.SimpleHTTPRequestHandler
 httpd = socketserver.TCPServer(("", PORT), Handler)
 print("serving at port", PORT)
